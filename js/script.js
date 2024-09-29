@@ -1,5 +1,5 @@
 let currentPanel = 1;
-const panelWidth = 1100; // Largura de cada painel
+const panelWidth = 300; // Largura de cada painel
 const totalPanels = 4; // Número total de painéis
 
 function changePanel(direction) {
