@@ -90,13 +90,23 @@ letter-spacing: 2px;
     width: 40%;
     border: solid blue 2px;
     padding: 5px;
+    float: left;
     
 }
-.Imagem{
+.imagem{
     width: 960px;
     height:540px;
+    float: right;
+    background-image: url(../../../img/conjunto-img/Cachoeira-do-Ouro-6.jpg);
+    
+    background-size:cover ;
+    background-repeat: no-repeat;
     
 }
+
+
+
+
 
 fieldset{
     min-height: 300px;
@@ -117,3 +127,6 @@ fieldset{
     margin:40px 0px 0px 20px;
     font-size: 30px;
   } 
+  fieldset a{
+    text-decoration:none ;
+  }
